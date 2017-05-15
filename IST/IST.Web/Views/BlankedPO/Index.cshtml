@@ -1,0 +1,84 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<div class="toolbar container-fluid">
+    <a asp-area="" asp-controller="BlankedPO" asp-action="Create" title="BPO New Request"><i class="fa fa-plus-circle fa-3x"></i></a>
+    <a asp-area="" asp-controller="BlankedPO" asp-action="Index" title="BPO Queue"><i class="fa fa-table fa-3x"></i></a>
+    <a asp-area="" asp-controller="BlankedPO" asp-action="Reports" title="BPO Reports"><i class="fa fa-pie-chart fa-3x"></i></a>
+</div>
+
+<br/>
+
+<div class="container-fluid">
+    <div class="well">
+        <h4>Search Criteria</h4>
+        <form class="form-inline">
+            <div class="form-group">
+                <label class="sr-only" for="requestId">Request ID</label>
+                <div class="input-group">
+                    <div class="input-group-addon"><strong>Request ID</strong></div>
+                    <input class="form-control" id="requestId">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="sr-only" for="status">Status</label>
+                <div class="input-group">
+                    <div class="input-group-addon"><strong>Status</strong></div>
+                    <input class="form-control" id="status" >
+                </div>
+                
+            </div>
+            <div class="form-group">
+                <label class="sr-only" for="code">Code</label>
+                <div class="input-group">
+                    <div class="input-group-addon"><strong>Code</strong></div>
+                    <input class="form-control" id="code">
+                </div>
+                
+            </div>
+            <div class="form-group">
+                <label class="sr-only" for="other1">Other</label>
+                <div class="input-group">
+                    <div class="input-group-addon"><strong>Other</strong></div>
+                    <input type="password" class="form-control" id="other1">
+                </div>
+                
+            </div>
+            <button type="submit" class="btn btn-primary pull-right">Go!</button>
+        </form>
+    </div>
+
+    <div class="table-responsive">
+        <table class="table table-condensed table-hover table-striped">
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+                <th>Header 3</th>
+                <th>Header 4</th>
+                <th>Header 5</th>
+                <th>Header 6</th>
+            </tr>
+            <tr>
+                <td>Data</td>
+                <td>Data</td>
+                <td>Data</td>
+                <td>Data</td>
+                <td>Data</td>
+                <td>Data</td>
+            </tr>
+            <tr>
+                <td>Data</td>
+                <td>Data</td>
+                <td>Data</td>
+                <td>Data</td>
+                <td>Data</td>
+                <td>Data</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+

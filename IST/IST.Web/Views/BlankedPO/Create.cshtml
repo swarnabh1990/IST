@@ -1,0 +1,153 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<div class="container-fluid">
+    <h3 class="page-header">BPO New Request</h3>
+    <form>
+        <div class="paper">
+            <div class="row">
+                <div class="col-xs-12 col-md-4">
+                    <div class="form-group">
+                        <label for="sapVendorCode">SAP Vendor Code</label>
+                        <input class="form-control" id="sapVendorCode" placeholder="SAP Vendor Code">
+                    </div>
+                    <div class="form-group">
+                        <label for="supplierCode">Supplier Code</label>
+                        <input class="form-control" id="supplierCode" placeholder="Supplier Code">
+                    </div>
+                    <div class="form-group">
+                        <label for="cityState">City, State</label>
+                        <input class="form-control" id="cityState" placeholder="City, State">
+                    </div>
+                    <div class="form-group">
+                        <label for="purchasingOrg">Purchasing Org.</label>
+                        <input class="form-control" id="purchasingOrg" placeholder="Purchasing Org.">
+                    </div>
+                    <div class="form-group">
+                        <label for="purchasingGrp">Purchasing Grp.</label>
+                        <input class="form-control" id="purchasingGrp" placeholder="Purchasing Grp.">
+                    </div>
+                    <div class="form-group">
+                        <label for="poType">PO Type</label>
+                        <input class="form-control" id="poType" placeholder="PO Type">
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-4">
+                    <div class="form-group">
+                        <label for="buyerName">Buyer Name</label>
+                        <input class="form-control" id="buyerName" placeholder="Buyer Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="requestedBy">Requested By</label>
+                        <input class="form-control" id="requestedBy" placeholder="Requested By">
+                    </div>
+                    <div class="form-group">
+                        <label for="date">Date</label>
+                        <input class="form-control" id="date" placeholder="Date">
+                    </div>
+                    <div class="form-group">
+                        <label for="ncmCode">NCM Code</label>
+                        <input class="form-control" id="ncmCode" placeholder="NCM Code">
+                    </div>
+                    <div class="form-group">
+                        <label for="materailUsage">Material Usage</label>
+                        <input class="form-control" id="materailUsage" placeholder="Material Usage">
+                    </div>
+                    <div class="form-group">
+                        <label for="poSetup">PO Setup</label>
+                        <input class="form-control" id="poSetup" placeholder="PO Setup">
+                    </div>
+                    <div class="form-group">
+                        <label for="countryOfShipment">Country of Shipment</label>
+                        <input class="form-control" id="countryOfShipment" placeholder="Country of Shipment">
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-4">
+                    <div class="form-group">
+                        <label for="text">Text</label>
+                        <textarea class="form-control" id="text" placeholder="Text"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="notes">Notes</label>
+                        <textarea class="form-control" id="notes" placeholder="Notes"></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br/>
+        <br />
+
+        <div class="paper">
+            <div class="row">
+                <div class="col-xs-12 col-md-4">
+                    <div class="form-group">
+                        <label for="shortText">Short Text/Desc</label>
+                        <input class="form-control" id="shortText" placeholder="Short Text/Desc">
+                    </div>
+                    <div class="form-group">
+                        <label for="poQuantity">PO Quantity</label>
+                        <input class="form-control" id="poQuantity" placeholder="PO Quantity">
+                    </div>
+                    <div class="form-group">
+                        <label for="uom">UOM</label>
+                        <input class="form-control" id="uom" placeholder="UOM">
+                    </div>
+                    <div class="form-group">
+                        <label for="netPrice">Net Price</label>
+                        <input class="form-control" id="netPrice" placeholder="Net Price">
+                    </div>
+                    <div class="form-group">
+                        <label for="currency">Currency</label>
+                        <input class="form-control" id="currency" placeholder="Currency">
+                    </div>
+                    <div class="form-group">
+                        <label for="per1or1000">Per 1 or 1000</label>
+                        <input class="form-control" id="per1or1000" placeholder="Per 1 or 1000">
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <div class="form-group">
+                        <label for="glAccpunt">GL Account</label>
+                        <input class="form-control" id="glAccpunt" placeholder="GL Account">
+                    </div>
+                    <div class="form-group">
+                        <label for="plantCode">Plant Code</label>
+                        <input class="form-control" id="plantCode" placeholder="Plant Code">
+                    </div>
+                    <div class="form-group">
+                        <label for="materialGroup">Material Group</label>
+                        <input class="form-control" id="materialGroup" placeholder="Material Group">
+                    </div>
+                    <div class="form-group">
+                        <label for="pricingCloud">Pricing Cloud</label>
+                        <input class="form-control" id="pricingCloud" placeholder="Pricing Cloude">
+                    </div>
+                    <div class="form-group">
+                        <label for="currency">Currency</label>
+                        <input class="form-control" id="currency" placeholder="Currency">
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                </div>
+            </div>
+        </div>
+
+        <br />
+        <br/>
+
+        <div class="pull-right">
+            <button class="btn btn-default">Cancel</button>&nbsp;&nbsp;         
+            <button class="btn btn-success">Validate</button>&nbsp;&nbsp;
+            <input type="submit" class="btn btn-primary" value="Save" />&nbsp;&nbsp;
+        </div>
+        <br/>
+        <br/>
+        <br />
+        <br />
+    </form>
+</div>
